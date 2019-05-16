@@ -57,6 +57,25 @@ A tecla `tab` ajuda a completar o nome de um arquivo que você iniciou a digita�
 
 # Aula 03 | Manipulando, compactando e descompactando arquivos
 
+`cp arquivo1.txt arquivo2.txt` - copia o arquivo1 para o arquivo2
+
+`mv arquivo1.txt arquivo3.txt` - move o arquivo1 para o arquivo3, nesse caso funciona como renomear o arquivo1 para arquivo3
+
+`mv arquivo1.txt projetos/` - move o arquivo1 para o diretorio projetos usando o mesmo nome (se qisessemos renomear bastava escrever .../novonome.txt depois da barra)
+
+`ls *`- mostra a lista de diretórios e seus respectivos conteúdos (o * faz com que ele entenda cada diretorio como diretorio/)
+
+`cp -r projetos1 projetos2` - copia o diretório projetos1 para o projetos2, note que devemos usar o -r para realizar isso recursivamente, só o cp não funciona para diretórios
+
+`zip -r diretorio.zip [diretorio/]` - cria um arquivo zip do diretorio informado, lembrando que tem que estar fora do diretório (cd ..) e pode colocar o nome que quiser no arquivo .zip. Importante lembrar de colocar o -r para ele inserir todo o conteúdo do diretório na pasta zipada.
+
+`zip -r -q diretorio.zip [diretorio/]` ou `zip -rq diretorio.zip [diretorio/]` - faz a mesma coisa, porém o -q (quiet) adicionado omite os logs que o comando apresenta por padrão
+
+`unzip -l diretorio.zip` - mostra o que tem dentro do diretorio.zip
+
+`unzip diretorio.zip`- descompacta arquivo
+
+`unzip -q diretorio.zip` - descompacta quietinho (sem log)
 
 # Aula 04 |
 
