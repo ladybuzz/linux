@@ -6,7 +6,7 @@
 
 `ls -l`- mostra informações sobre arquivos e diretórios ( quando a linha inicia com d é um diretório, também mostra o grupo e o usuario, o tamanho do arquivo e a data e hora de modificação)
 
-`ls -a` - mostra todos (a de all) os arquivos, incluindo invisíveis (iniciados pelo caractere .) podemos usar a combinação `ls -la` 
+`ls -a` - mostra todos (a de all) os arquivos, incluindo invisíveis (iniciados pelo caractere .) podemos usar a combinação `ls -la`
 
 `echo Bem vindo` - echo (repetir) diz para o terminal falar Bem vindo
 
@@ -79,5 +79,6 @@ A tecla `tab` ajuda a completar o nome de um arquivo que você iniciou a digita�
 
 # Aula 04 |
 
+Teste 1
 
 # Aula 05 |
